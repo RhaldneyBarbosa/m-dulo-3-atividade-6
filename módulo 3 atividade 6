@@ -1,0 +1,16 @@
+rodas = int ( imput ( "qual a quantidade de rodas do veículo: " ))
+peso = float ( imput ( "Qual o peso em quilos do veículo: " ))
+pessoas = float ( imput ( "Quantas pessoas ocupam o veículo: " ))
+
+if rodas == 2 ou rodas == 3 :
+    print ( "A categoria ideal para veículos com 2 ou 3 rodas é a: A" )
+elif rodas == 4 e pessoas <= 8 e peso <= 3500 :    
+    print ( "A cadetetogia ideal para veículos a partir de 4 rodas e peso inferior a 3500 kg é: B" )
+elif rodas >= 4 e peso >= 3500 e peso <= 6000 :
+    print ( "A categoria ideal para veículos a partir de 4 rodas e peso entre 3500 e 6000 kg é: C" )
+elif rodas >= 4 e pessoas > 8 :
+    print ( "A categoria ideal para veículos a partir de 4 rodas e mais de 8 passageiros é: D" )
+else:
+    if rodas >= 4 e peso > 6000 :
+       print ( "A categoria ideal para veículos a partir de 4 rodas e peso superior a 6000 kg é: E" )
+    
